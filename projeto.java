@@ -21,7 +21,7 @@ public class projeto {
 
             if (adivinha == aleatório) {
                 JOptionPane.showMessageDialog(null, "Você acertou!");
-                y = 1;
+                break;
             }
 
             if (100 < adivinha) {
